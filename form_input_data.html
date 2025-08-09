@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Data Siswa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Data Siswa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabel_data_siswa.html">Tabel Siswa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="form_input_data.html">Tambah Siswa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Form Input Data Siswa</h2>
+        <form id="form-data-siswa">
+            <div class="mb-3">
+                <label for="kodeSiswa" class="form-label">Kode Siswa</label>
+                <input type="text" class="form-control" id="kodeSiswa" required>
+            </div>
+            <div class="mb-3">
+                <label for="namaSiswa" class="form-label">Nama Siswa</label>
+                <input type="text" class="form-control" id="namaSiswa" required>
+            </div>
+            <div class="mb-3">
+                <label for="alamatSiswa" class="form-label">Alamat Siswa</label>
+                <input type="text" class="form-control" id="alamatSiswa" required>
+            </div>
+            <div class="mb-3">
+                <label for="tglSiswa" class="form-label">Tgl. Siswa</label>
+                <input type="date" class="form-control" id="tglSiswa" required>
+            </div>
+            <div class="mb-3">
+                <label for="jurusanSiswa" class="form-label">Jurusan Siswa</label>
+                <input type="text" class="form-control" id="jurusanSiswa" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Simpan Data</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
