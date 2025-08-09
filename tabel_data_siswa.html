@@ -45,6 +45,44 @@
         </table>
     </div>
 
+    <!-- Modal Edit -->
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Edit Data Siswa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <input type="hidden" id="editIndex">
+                        <div class="mb-3">
+                            <label for="editKodeSiswa" class="form-label">Kode Siswa</label>
+                            <input type="text" class="form-control" id="editKodeSiswa" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editNamaSiswa" class="form-label">Nama Siswa</label>
+                            <input type="text" class="form-control" id="editNamaSiswa" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editAlamatSiswa" class="form-label">Alamat Siswa</label>
+                            <input type="text" class="form-control" id="editAlamatSiswa" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editTglSiswa" class="form-label">Tgl. Siswa</label>
+                            <input type="date" class="form-control" id="editTglSiswa" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editJurusanSiswa" class="form-label">Jurusan Siswa</label>
+                            <input type="text" class="form-control" id="editJurusanSiswa" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>

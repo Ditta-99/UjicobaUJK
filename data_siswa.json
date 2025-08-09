@@ -1,23 +1,9 @@
 [
     {
         "kodeSiswa": "S001",
-        "namaSiswa": "Fatimah Maulida",
-        "alamatSiswa": "Pekalongan",
-        "tglSiswa": "2025-08-09",
-        "jurusanSiswa": "Multimedia"
-    },
-    {
-        "kodeSiswa": "S002",
-        "namaSiswa": "Riyandhi",
-        "alamatSiswa": "Ciputat",
-        "tglSiswa": "2025-08-19",
-        "jurusanSiswa": "Multimedia"
-    },
-    {
-        "kodeSiswa": "S007",
-        "namaSiswa": "Niko Zahran",
-        "alamatSiswa": "Brebes",
-        "tglSiswa": "2025-08-09",
-        "jurusanSiswa": "Teknik Komputer Jaringan"
+        "namaSiswa": "Muhammad Radit",
+        "alamatSiswa": "Jatirahayu",
+        "tglSiswa": "2007-08-21",
+        "jurusanSiswa": "RPL"
     }
 ]
